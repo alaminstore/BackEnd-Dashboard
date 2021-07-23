@@ -1,0 +1,198 @@
+.news-events .title-box {
+    margin-bottom: 94px;
+}
+.news-events p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #8A8A8A;
+    padding: 24px 0 12px;
+}
+.news-events h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black);
+}
+
+.news-events .owl-nav {
+    position: absolute;
+    top: -162px;
+    right: 0;
+}
+.news-events .owl-nav button.owl-next, .news-events .owl-nav button.owl-prev {
+    width: 68px;
+    height: 68px;
+    line-height: 64px;
+    text-align: center;
+    border: 2px solid var(--red);
+}
+.news-events .owl-nav button.owl-prev {
+    margin-right: 16px;
+}
+
+.news-events .owl-dots {
+    text-align: center;
+    margin: 110px 0 124px;
+}
+.news-events button.owl-dot.active {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border: 2px solid var(--red);
+    border-radius: 50%;
+    text-align: center;
+}
+.news-events button.owl-dot:not(:last-child) {
+    margin-right: 40px;
+}
+.news-events button.owl-dot span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: block;
+    background-color: #B0B0B0;
+    margin: auto;
+}
+.news-events button.owl-dot.acitve span {
+    background-color: var(--red);
+}
+
+
+
+/* news events details start */
+.news-events-details .content-wrapper {
+    padding-bottom: 92px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.news-events-details .meta {
+    padding: 60px 0 16px;
+}
+.news-events-details h1 {
+    max-width: 950px;
+    margin-bottom: 72px;
+}
+.news-events-details .description p:not(:last-child) {
+    margin-bottom: 48px;
+}
+
+.related-news {
+    padding: 32px 0 150px;
+}
+
+@media (max-width: 575.98px) {
+    .news-events .title-box {
+        margin-bottom: 54px;
+    }
+    .news-events p {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 24px 0 8px;
+    }
+    .news-events h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .news-events .owl-nav {
+        position: absolute;
+        top: -94px;
+        right: 0;
+    }
+    .news-events .owl-nav button.owl-next, .news-events .owl-nav button.owl-prev {
+        width: 46px;
+        height: 46px;
+        line-height: 41px;
+    }
+    .news-events .owl-nav button.owl-next img, .news-events .owl-nav button.owl-prev img {
+        width: 14px;
+    }
+
+
+    .ongoing-events {
+        padding: 120px 0 84px;
+    }
+
+
+
+    /* news events details start */
+    .news-events-details .content-wrapper {
+        padding-bottom: 48px;
+    }
+    .news-events-details .meta {
+        padding: 32px 0 12px;
+    }
+    .news-events-details h1 {
+        max-width: 286px;
+        margin-bottom: 32px;
+    }
+    .news-events-details .description p:not(:last-child) {
+        margin-bottom: 24px;
+    }
+    .related-news {
+        padding: 48px 0 56px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .news-events .title-box {
+        margin-bottom: 54px;
+    }
+    .news-events p {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 24px 0 8px;
+    }
+    .news-events h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .news-events .owl-nav {
+        position: absolute;
+        top: -94px;
+        right: 0;
+    }
+    .news-events .owl-nav button.owl-next, .news-events .owl-nav button.owl-prev {
+        width: 46px;
+        height: 46px;
+        line-height: 41px;
+    }
+    .news-events .owl-nav button.owl-next img, .news-events .owl-nav button.owl-prev img {
+        width: 14px;
+    }
+
+
+    .ongoing-events {
+        padding: 120px 0 84px;
+    }
+
+
+
+    /* news events details start */
+    .news-events-details .content-wrapper {
+        padding-bottom: 48px;
+    }
+    .news-events-details .meta {
+        padding: 32px 0 12px;
+    }
+    .news-events-details h1 {
+        margin-bottom: 32px;
+    }
+    .news-events-details .description p:not(:last-child) {
+        margin-bottom: 24px;
+    }
+    .related-news {
+        padding: 48px 0 56px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .related-news {
+        padding: 48px 0 56px;
+    }
+    .news-events .owl-nav {
+        top: -152px;
+    }
+}

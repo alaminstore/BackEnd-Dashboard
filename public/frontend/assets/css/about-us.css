@@ -1,0 +1,510 @@
+.about-hero .content-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.about-hero .inner-content {
+    width: 100%;
+    max-width: 779px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-hero .inner-content p {
+    padding: 32px 0 54px;
+}
+.about-hero .inner-image img {
+    padding-left: 72px;
+}
+
+
+.reach-history {
+    background-color: var(--red);
+    padding: 75px 0;
+}
+.reach-history .content-wrapper {
+    padding: 0 122px 0 103px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.reach-history .content-wrapper h1, .reach-history .content-wrapper p {
+    color: var(--white);
+}
+.reach-history .content-wrapper p {
+    padding-top: 32px;
+}
+
+
+
+.our-mvg {
+    padding: 150px 0 52px;
+    background: linear-gradient(0deg, rgba(26, 27, 39, 0.02), rgba(26, 27, 39, 0.02)), #FFFFFF;
+}
+.our-mvg .col-steps:nth-child(2) .content-wrapper {
+    margin: 0 auto;
+} 
+.our-mvg .col-steps:nth-child(3) .content-wrapper {
+    margin-left: auto;
+} 
+.our-mvg .content-wrapper {
+    width: 100%;
+    max-width: 370px;
+}
+.our-mvg .content-wrapper h2 {
+    color: var(--red);
+    padding-bottom: 24px;
+}
+
+
+.why-different {
+    padding-top: 75px;
+    background: linear-gradient(0deg, rgba(26, 27, 39, 0.02), rgba(26, 27, 39, 0.02)), #FFFFFF;
+}
+.why-different .content-wrapper {
+    padding: 0 122px 0 103px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.why-different .content-wrapper h1 {
+    padding-bottom: 60px;
+}
+
+
+.board-of-director {
+    padding-top: 150px;
+}
+.founder-chairman {
+    background: rgba(26, 27, 39, .08);
+    padding: 49px 0 0 67px;
+}
+.founder-chairman .content-wrapper {
+    width: 100%;
+    max-width: 833px;
+}
+.founder-chairman .content-wrapper h1 {
+    font-size: 42px;
+    line-height: 68px;
+    font-weight: 400;
+    color: var(--red);
+}
+.founder-chairman .content-wrapper p {
+    margin-top: 24px;
+}
+.founder-chairman .image-wrapper {
+    margin-left: 50px;
+}
+
+.comp-members {
+    padding-top: 85px;
+}
+.comp-members .custom-margin {
+    margin-right: -50px;
+    margin-left: -50px;
+}
+.comp-members .custom-padding {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.comp-members .content-wrapper {
+    padding-bottom: 60px;
+}
+.comp-members .content-wrapper h2 {
+    padding: 36px 0 12px;
+    position: relative;
+}
+.comp-members .content-wrapper h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 24px;
+    width: 32px;
+    height: 3px;
+    background-color: var(--red);
+}
+
+
+/* index career news & events start */
+.index-cne {
+    padding: 150px 0;
+}
+.index-cne .col-steps:last-child .content-wrapper {
+    margin-left: auto;
+}
+.index-cne .content-wrapper {
+    width: 100%;
+    max-width: 580px;
+}
+.index-cne .content-wrapper h2 {
+    padding-top: 48px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+}
+.index-cne .content-wrapper p {
+    padding: 16px 0 32px;
+    width: 100%;
+    max-width: 466px;
+}
+
+
+@media (max-width: 575.98px) {
+    .about-hero .inner-content p {
+        padding: 16px 0 102px;
+    }
+    .about-hero .inner-image img {
+        padding-left: 12px;
+    }
+    .reach-history {
+        padding: 48px 0;
+    }
+    .reach-history .content-wrapper {
+        padding: 0;
+    }
+    .reach-history .content-wrapper p {
+        padding-top: 16px;
+        padding-bottom: 40px;
+    }
+
+    .our-mvg {
+        padding: 48px 0 0;
+    }
+    .our-mvg .content-wrapper {
+        width: 100%;
+        max-width: 370px;
+        padding-bottom: 56px;
+    }
+    .our-mvg .content-wrapper h2 {
+        padding-bottom: 16px;
+    }
+
+    .why-different {
+        padding-top: 32px;
+    }
+    .why-different .content-wrapper {
+        padding: 0;
+    }
+    .why-different .content-wrapper h1 {
+        padding-bottom: 24px;
+    }
+    .why-different .image-wrapper {
+        margin-top: 40px;
+    }
+
+    .board-of-director {
+        padding-top: 84px;
+    }
+    .founder-chairman {
+        padding: 28px 24px 0 24px;
+        margin: 0px -12px;
+    }
+    .founder-chairman .content-wrapper {
+        margin-bottom: 42px;
+    }
+    .founder-chairman .content-wrapper h1 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .founder-chairman .content-wrapper p {
+        margin-top: 16px;
+    }
+    .founder-chairman .image-wrapper {
+        margin-left: 28px;
+    }
+    .founder-chairman .image-wrapper img {
+        width: 100%;
+    }
+    .comp-members .custom-margin {
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+    .comp-members .custom-padding {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .comp-members .content-wrapper {
+        padding-bottom: 56px;
+    }
+    .comp-members .content-wrapper h2 {
+        padding: 28px 0 4px;
+    }
+    .comp-members .content-wrapper h2::before {
+        top: 20px;
+    }
+    .comp-members .content-wrapper p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    /* index career news & events  */
+    .index-cne {
+        padding: 48px 0;
+    }
+    .index-cne .col-steps:not(:last-child) .content-wrapper {
+        padding-bottom: 56px;
+    }
+    .index-cne .content-wrapper h2 {
+        padding-top: 24px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .index-cne .content-wrapper p {
+        padding: 8px 0 16px;
+        max-width: 272px;
+    } 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .about-hero .inner-image img {
+        padding-left: 26px;
+    }
+    .reach-history .content-wrapper {
+        padding: 0 0 48px 0;
+    }
+    .our-mvg {
+        padding: 75px 0 52px;
+    }
+    .our-mvg .col-steps:nth-child(2) .content-wrapper {
+        margin: 0;
+        margin-top: 48px;
+    }
+    .our-mvg .col-steps:nth-child(3) .content-wrapper {
+        margin-left: 0;
+        margin-top: 48px;
+    }
+
+    .why-different .content-wrapper {
+        padding: 0 0 56px 0;
+    }
+    .why-different .content-wrapper h1 {
+        padding-bottom: 42px;
+    }
+
+
+    .board-of-director {
+        padding-top: 75px;
+    }
+    .founder-chairman {
+        padding: 32px 32px 0 32px;
+    }
+    .founder-chairman .content-wrapper {
+        padding-bottom: 48px;
+    }
+    .founder-chairman .image-wrapper {
+        margin-left: 0;
+    }
+    .founder-chairman .image-wrapper img {
+        width: 100%;
+    }
+    /* index career news & events  */
+    .index-cne {
+        padding: 48px 0;
+    }
+    .index-cne .col-steps:not(:last-child) .content-wrapper {
+        padding-bottom: 56px;
+    }
+    .index-cne .content-wrapper h2 {
+        padding-top: 24px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .index-cne .content-wrapper p {
+        padding: 8px 0 16px;
+        max-width: 272px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-hero .inner-image img {
+        padding-left: 32px;
+    }
+    .comp-members .custom-margin {
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+    .comp-members .custom-padding {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .reach-history .content-wrapper {
+        padding: 0 0 48px 0;
+    }
+
+    .our-mvg {
+        padding: 100px 0 12px;
+    }
+
+    .why-different .content-wrapper {
+        padding: 0 0 48px 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .board-of-director {
+        padding-top: 100px;
+    }
+    .founder-chairman {
+        padding: 49px 42px 0 42px;
+    }
+    .founder-chairman .content-wrapper {
+        padding-bottom: 48px;
+    }
+
+    .index-cne {
+        padding: 100px 0;
+    }
+    .index-cne .content-wrapper h2 {
+        padding-top: 42px;
+        font-size: 34px;
+        line-height: 44px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .reach-history .content-wrapper {
+        padding: 0;
+    }
+
+    .why-different .content-wrapper {
+        padding: 0;
+    }
+    .why-different .content-wrapper h1 {
+        padding-bottom: 42px;
+    }
+
+    .our-mvg {
+        padding: 120px 0 52px;
+    }
+
+    .board-of-director {
+        padding-top: 120px;
+    }
+    .founder-chairman {
+        padding: 49px 0 0 32px;
+    }
+    .founder-chairman .content-wrapper {
+        padding-bottom: 32px;
+    }
+    .founder-chairman .image-wrapper {
+        margin-left: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .founder-chairman .image-wrapper img {
+        width: 100%;
+    }
+
+    .comp-members .custom-margin {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .comp-members .custom-padding {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .index-cne {
+        padding: 120px 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1365.98px) {
+    .reach-history .content-wrapper {
+        padding: 0;
+    }
+    .why-different .content-wrapper {
+        padding: 0;
+    }
+
+    .comp-members .custom-margin {
+        margin-right: -25px;
+        margin-left: -25px;
+    }
+    .comp-members .custom-padding {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+
+    .founder-chairman {
+        padding: 49px 0 0 32px;
+    }
+    .founder-chairman .content-wrapper {
+        padding-bottom: 32px;
+    }
+    .founder-chairman .image-wrapper {
+        margin-left: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .founder-chairman .image-wrapper img {
+        width: 100%;
+    }
+}
+@media (min-width: 1366px) and (max-width: 1679.98px) {
+    .reach-history .content-wrapper {
+        padding: 0 0 0 32px;
+    }
+    .reach-history .content-wrapper p {
+        padding-top: 22px;
+    }
+
+    .our-mvg .content-wrapper {
+        max-width: 324px;
+    }
+
+    .why-different .content-wrapper {
+        padding: 0;
+    }
+    .why-different .content-wrapper h1 {
+        padding-bottom: 48px;
+    }
+
+    .founder-chairman .image-wrapper {
+        margin-left: -32px;
+    }
+    .comp-members .custom-margin {
+        margin-right: -25px;
+        margin-left: -25px;
+    }
+    .comp-members .custom-padding {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+
+    .index-cne {
+        padding: 90px 0 150px;
+    }
+    .index-cne .content-wrapper {
+        max-width: 492px;
+    }
+    .index-cne .content-wrapper h2 {
+        padding-top: 42px;
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .index-cne .content-wrapper p {
+        max-width: 410px;
+    }
+}
+@media (min-width: 1680px) and (max-width: 1919.98px) {
+    .founder-chairman .image-wrapper {
+        margin-left: 0;
+    }
+}
+@media (min-width: 1920px) {
+    .reach-history .container, .why-different .container {
+        max-width: 1638px;
+    }
+}

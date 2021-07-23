@@ -1,0 +1,157 @@
+.school-hero .inner-content {
+    width: 100%;
+    max-width: 822px;
+    margin: 0 auto;
+    text-align: center;
+}
+.school-hero .inner-content h1 {
+    max-width: 665px;
+    margin: 0 auto;
+}
+.school-hero .inner-content p {
+    padding: 32px 0 80px;
+}
+
+
+.professional-security{
+    padding: 150px 0;
+}
+.professional-security .content-wrapper {
+    padding: 0 84px 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.professional-security .content-wrapper p {
+    padding-top: 32px;
+}
+
+
+.forms-of-training {
+    background-color: var(--red);
+    padding: 122px 0;
+}
+.forms-of-training .title-box h1 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 96px;
+}
+.forms-of-training .custom-margin {
+    margin-right: -28px;
+    margin-left: -28px;
+}
+.forms-of-training .custom-padding {
+    padding-right: 28px;
+    padding-left: 28px;
+}
+.forms-of-training .content-wrapper {
+    text-align: center;
+}
+.forms-of-training .content-wrapper .image-wrapper .box-number {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #F5A700;
+    text-align: center;
+}
+.forms-of-training .content-wrapper .image-wrapper .box-number span {
+    font-size: 32px;
+    color: var(--white);
+    font-weight: 700;
+}
+.forms-of-training .content-wrapper h2 {
+    font-size: 38px;
+    line-height: 52px;
+    font-weight: 400;
+    color: var(--white);
+    margin-top: 46px;
+}
+
+
+
+.training-objectives {
+    padding: 122px 0;
+}
+.training-objectives .content-wrapper {
+    padding-right: 188px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.training-objectives .content-wrapper h1 {
+    padding-bottom: 60px;
+    max-width: 460px;
+}
+
+
+@media (max-width: 575.98px) {
+    .school-hero .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .school-hero .content-wrapper .inner-content {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .professional-security {
+        padding: 56px 0 0;
+    }
+    .professional-security .content-wrapper {
+        padding: 0;
+    }
+    .professional-security .content-wrapper p {
+        padding: 16px 0 36px;
+    }
+
+    .forms-of-training {
+        padding: 52px 0;
+    }
+    .forms-of-training .title-box h1 {
+        margin-bottom: 48px;
+    }
+    .forms-of-training .custom-margin {
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+    .forms-of-training .custom-padding {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .forms-of-training .content-wrapper {
+        margin-bottom: 38px;
+    }
+    .forms-of-training .content-wrapper .image-wrapper .box-number {
+        bottom: -16px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+    }
+    .forms-of-training .content-wrapper .image-wrapper .box-number span {
+        font-size: 18px;
+    }
+    .forms-of-training .content-wrapper h2 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 24px;
+    }
+
+    .training-objectives {
+        padding: 56px 0;
+    }
+    .training-objectives .content-wrapper {
+        padding-right: 0;
+        margin-bottom: 56px;
+    }
+    .training-objectives .content-wrapper h1 {
+        padding-bottom: 24px;
+        max-width: 460px;
+    }
+}

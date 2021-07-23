@@ -1,0 +1,172 @@
+.terms-policy {
+    padding-bottom: 150px;
+}
+.terms-policy-wrapper .tp-tab-wrapper h1 {
+    max-width: 240px;
+    margin-bottom: 48px;
+}
+body.ethical-code .terms-policy-wrapper .tp-tab-wrapper h1 {
+    max-width: 342px;
+}
+.terms-policy-wrapper .tp-tab-wrapper .list-group-item {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+    line-height: 42px;
+    font-weight: 500;
+    color: #727272;
+    margin-bottom: 12px;
+}
+.terms-policy-wrapper .tp-tab-wrapper .list-group-item.active {
+    font-weight: 700;
+    color: var(--red);
+}
+.terms-policy-wrapper .tp-content-wrapper {
+    position: relative;
+    height: 724px;
+    margin-top: .5rem;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.terms-policy-wrapper .tp-content-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.terms-policy-wrapper .tp-content-wrapper .content-item:not(:first-child) {
+    margin-top: 82px;
+}
+.terms-policy-wrapper .tp-content-wrapper h3 {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.tp-content-wrapper .tbx-wrapper {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 48px;
+}
+.tp-content-wrapper .tbx-wrapper .image-rapper {
+    flex: 0 0 200px;
+    max-width: 200px;
+}
+.tp-content-wrapper .tbx-wrapper .content {
+    margin-left: 32px;
+}
+.tp-content-wrapper .tbx-wrapper .content h2 {
+    position: relative;
+}
+.tp-content-wrapper .tbx-wrapper .content h2::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 0;
+    width: 32px;
+    height: 3px;
+    background-color: var(--red);
+}
+.tp-content-wrapper .tbx-wrapper .content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #727272;
+    margin-top: 12px;
+}
+
+@media (max-width: 575.98px) {
+    .terms-policy {
+        padding-bottom: 56px;
+    }
+    .terms-policy-wrapper .title-box-mobile {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .terms-policy-wrapper .tp-content-wrapper {
+        height: auto;
+        overflow: hidden;
+    }
+    .terms-policy-wrapper .tp-content-wrapper .content-item:not(:first-child) {
+        margin-top: 62px;
+    }
+    .terms-policy-wrapper .tp-content-wrapper h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .tp-content-wrapper .tbx-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+    .tp-content-wrapper .tbx-wrapper .image-rapper {
+        flex: 0 0 96px;
+        max-width: 96px;
+    }
+    .tp-content-wrapper .tbx-wrapper .content {
+        margin-left: 0;
+        margin-top: 32px;
+    }
+    .tp-content-wrapper .tbx-wrapper .content h2.title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .tp-content-wrapper .tbx-wrapper .content p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 4px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .terms-policy {
+        padding-bottom: 56px;
+    }
+    .terms-policy-wrapper .title-box-mobile {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .terms-policy-wrapper .tp-content-wrapper {
+        height: auto;
+        overflow: hidden;
+    }
+    .terms-policy-wrapper .tp-content-wrapper .content-item:not(:first-child) {
+        margin-top: 62px;
+    }
+    .terms-policy-wrapper .tp-content-wrapper h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .tp-content-wrapper .tbx-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+    .tp-content-wrapper .tbx-wrapper .image-rapper {
+        flex: 0 0 96px;
+        max-width: 96px;
+    }
+    .tp-content-wrapper .tbx-wrapper .content {
+        margin-left: 0;
+        margin-top: 32px;
+    }
+    .tp-content-wrapper .tbx-wrapper .content h2.title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .tp-content-wrapper .tbx-wrapper .content p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 4px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1365.98px) {}
+
+@media (min-width: 1366px) and (max-width: 1679.98px) {}

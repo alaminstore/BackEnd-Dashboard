@@ -1,0 +1,785 @@
+.index-hero .content-wrapper p, .index-serving .content-wrapper p, .training-school .content-wrapper p {
+    padding: 32px 0 64px;
+}
+
+/* index hero start */
+.index-hero {
+    padding: 220px 0 0;
+    background-image: url(../img/home/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.index-hero .content-wrapper {
+    width: 100%;
+    max-width: 732px;
+    padding: 48px 0;
+}
+.index-hero .content-wrapper p {
+    width: 100%;
+    max-width: 684px;
+}
+.index-hero .image-wrapper {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+.index-hero .image-wrapper img {
+    width: 115%;
+    
+}
+
+
+/* index serving start */
+.index-serving {
+    padding: 150px 0;
+}
+.index-serving .content-wrapper, .index-serving .image-wrapper {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(157,10,20,1) 50%, rgba(255,255,255,1) 50%); 
+}
+.index-serving .image-wrapper .image-inner {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+}
+.index-serving .content-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.index-serving .content-wrapper .content-inner {
+    background-color: var(--white);
+    max-width: 824px;
+    margin-right: auto;
+    padding: 0 144px 0 142px;
+}
+.index-serving .content-wrapper h1 {
+    width: 100%;
+    max-width: 324px;
+}
+
+/* index clients solution start */
+.client-solution {
+    padding: 150px 0 130px;
+    background: linear-gradient(0deg, rgba(26, 27, 39, 0.02), rgba(26, 27, 39, 0.02)), #FFFFFF;
+}
+.client-solution .body-wrapper {
+    padding-top: 66px;
+}
+.client-solution .body-wrapper .custom-margin {
+    margin-right: -50px;
+    margin-left: -50px;
+}
+.client-solution .body-wrapper .content-wrapper {
+    padding: 0 50px 72px;
+}
+.client-solution .body-wrapper .content-wrapper h2 {
+    color: var(--black);
+    text-transform: capitalize;
+    padding-top: 24px;
+    position: relative;
+}
+.client-solution .body-wrapper .content-wrapper h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color: var(--red);
+    width: 32px;
+    height: 2px;
+    transition: all .3s ease-in-out;
+}
+.client-solution .body-wrapper .content-wrapper:hover h2::before {
+    width: 96px;
+}
+
+/* why choose us start */
+.choose-us {
+    background: rgb(157,10,20);
+    background: linear-gradient(270deg, rgba(157,10,20,1) 82%, rgba(250,250,250,1) 82%);
+}
+.choose-us .image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.choose-us .image-wrapper img {
+    position: absolute;
+    bottom: 0;
+    left: -164px;
+    width: 484px;
+}
+.choose-us .content-wrapper {
+    padding-top: 88px;
+}
+.choose-us .content-wrapper .sc-title {
+    color: var(--white);
+}
+.steps-wrapper {
+    padding-top: 96px;
+
+}
+.steps-wrapper .col-steps:nth-child(odd) .steps-inner {
+    margin-left: 24px;
+}
+.steps-wrapper .col-steps:nth-child(even) .steps-inner {
+    margin-left: auto;
+}
+.steps-wrapper .steps-inner {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-bottom: 74px;
+    max-width: 390px;
+}
+.steps-wrapper .steps-inner .icon-box {
+    flex: 0 0 60px;
+    max-width: 60px;
+    margin-top: 11px;
+}
+.steps-wrapper .steps-inner .content-box {
+    padding-left: 36px;
+}
+.steps-wrapper .steps-inner .content-box h2 {
+    text-transform: capitalize;
+    color: var(--white);
+    padding-bottom: 16px;
+}
+.steps-wrapper .steps-inner .content-box p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #EFB6BA;
+}
+
+/* clients section start */
+.our-clients {
+    padding: 150px 0;
+}
+.our-clients .sc-title-wrapper {
+    padding-bottom: 112px;
+}
+.clients-slide .logo {
+    display: block;
+}
+.clients-slide .logo img {
+    width: 100%;
+    /* max-width: 242px; */
+    max-width: 182px;
+    filter: grayscale(1);
+    transition: all .3s ease-in-out;
+}
+.clients-slide .logo:hover img {
+    filter: grayscale(0);
+}
+
+
+/* training school start */
+.training-school .content-wrapper, .training-school .image-wrapper {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(157,10,20,1) 50%, rgba(255,255,255,1) 50%); 
+}
+.training-school .image-wrapper .image-inner {
+    width: 100%;
+    max-width: 700px;
+    margin-right: auto;
+}
+.training-school .content-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.training-school .content-wrapper .content-inner {
+    background-color: var(--white);
+    max-width: 824px;
+    margin-left: auto;
+    padding: 0 144px 0 142px;
+}
+.training-school .content-wrapper h1 {
+    width: 100%;
+    max-width: 508px;
+}
+.training-school .content-wrapper p {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* index career news & events start */
+.index-cne {
+    padding: 150px 0;
+}
+.index-cne .col-steps:last-child .content-wrapper {
+    margin-left: auto;
+}
+.index-cne .content-wrapper {
+    width: 100%;
+    max-width: 580px;
+}
+.index-cne .content-wrapper h2 {
+    padding-top: 48px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+}
+.index-cne .content-wrapper p {
+    padding: 16px 0 32px;
+    width: 100%;
+    max-width: 466px;
+}
+
+
+@media (max-width: 575.98px) {
+    .index-hero .content-wrapper p, .index-serving .content-wrapper p, .training-school .content-wrapper p {
+        padding: 16px 0 32px;
+    }
+
+    /* index hero */
+    .index-hero {
+        padding: 62px 0 0;
+    }
+    .index-hero .content-wrapper {
+        max-width: 268px;
+    }
+    .index-hero .image-wrapper img {
+        width: 100%;
+    }
+
+
+
+    /* index serving start */
+    .index-serving {
+        padding: 48px 0;
+    }
+    .index-serving .image-wrapper {
+        padding-top: 48px;
+    }
+    .index-serving .image-wrapper .image-inner {
+        max-width: 334px;
+    }
+    .index-serving .content-wrapper .content-inner {
+        max-width: 336px;
+        padding: 0 40px 0 24px;
+    }
+    .index-serving .content-wrapper h1 {
+        width: 100%;
+        max-width: 205px;
+    }
+
+
+
+    /* clients solution */
+    .client-solution {
+        padding: 34px 0 52px;
+    }
+    .client-solution .body-wrapper {
+        padding-top: 38px;
+    }
+    .client-solution .body-wrapper .custom-margin {
+        margin-right: -24px;
+        margin-left: -24px;
+    } 
+    .client-solution .body-wrapper .content-wrapper {
+        padding: 0 24px 48px;
+    }
+    .client-solution .body-wrapper .content-wrapper h2 {
+        padding-top: 16px;
+    }
+
+
+    /* why choose us */
+    .choose-us {
+        background: linear-gradient(
+    270deg
+    , rgba(157,10,20,1) 100%, rgba(250,250,250,1) 82%);
+    }
+    .choose-us .content-wrapper {
+        padding-top: 48px;
+    }
+    .steps-wrapper {
+        padding-top: 40px;
+    }
+    .steps-wrapper .steps-inner {
+        padding-bottom: 56px;
+    }
+    .steps-wrapper .col-steps:nth-child(odd) .steps-inner {
+        margin-left: 0;
+    }
+    .steps-wrapper .steps-inner .icon-box {
+        flex: 0 0 26px;
+        max-width: 26px;
+        margin-top: 11px;
+    }
+    .steps-wrapper .steps-inner .content-box {
+        padding-left: 22px;
+    }
+    .steps-wrapper .steps-inner .content-box h2 {
+        padding-bottom: 14px;
+        max-width: 168px;
+    }
+    .steps-wrapper .steps-inner .content-box p {
+        font-size: 12px;
+        line-height: 24px;
+        max-width: 196px;
+    }
+    .choose-us .image-wrapper img {
+        position: initial;
+        width: 268px;
+        margin-left: 0;
+    }
+
+
+
+    /* clients section */
+    .our-clients {
+        padding: 64px 0;
+    }
+    .our-clients .sc-title-wrapper .title-box {
+        flex: 0 0 258px;
+        max-width: 258px;
+    }
+    .our-clients .sc-title-wrapper {
+        padding-bottom: 48px;
+    }
+    .our-clients .view-btn-box-mobile {
+        margin-top: 56px;
+    }
+
+
+    /* training school start */
+    .training-school .image-wrapper {
+        padding-top: 48px;
+    }
+    .training-school .image-wrapper .image-inner {
+        max-width: 334px;
+    }
+    .training-school .content-wrapper .content-inner {
+        max-width: 336px;
+        padding: 0 40px 0 24px;
+    }
+    .training-school .content-wrapper h1 {
+        width: 100%;
+        max-width: 244px;
+    }
+
+
+    /* index career news & events  */
+    .index-cne {
+        padding: 48px 0;
+    }
+    .index-cne .col-steps:not(:last-child) .content-wrapper {
+        padding-bottom: 56px;
+    }
+    .index-cne .content-wrapper h2 {
+        padding-top: 24px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .index-cne .content-wrapper p {
+        padding: 8px 0 16px;
+        max-width: 272px;
+    }   
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .index-hero .content-wrapper p, .index-serving .content-wrapper p, .training-school .content-wrapper p {
+        padding: 16px 0 32px;
+    }
+
+    /* index hero */
+    .index-hero {
+        padding: 62px 0 0;
+    }
+    .index-hero .content-wrapper {
+        max-width: 374px;
+    }
+    .index-hero .content-wrapper h1 {
+        max-width: 362px;
+    }
+    .index-hero .image-wrapper img {
+        width: 100%;
+    }
+
+
+
+    /* index serving start */
+    .index-serving {
+        padding: 48px 0;
+    }
+    .index-serving .image-wrapper {
+        padding-top: 48px;
+    }
+    .index-serving .image-wrapper .image-inner {
+        max-width: 558px;
+    }
+    .index-serving .content-wrapper .content-inner {
+        max-width: 582px;
+        padding: 0 86px 0 82px;
+    }
+    .index-serving .content-wrapper h1 {
+        width: 100%;
+        max-width: 205px;
+    }
+
+
+
+    /* clients solution */
+    .client-solution {
+        padding: 34px 0 52px;
+    }
+    .client-solution .body-wrapper {
+        padding-top: 38px;
+    }
+    .client-solution .body-wrapper .custom-margin {
+        margin-right: -24px;
+        margin-left: -24px;
+    } 
+    .client-solution .body-wrapper .content-wrapper {
+        padding: 0 24px 48px;
+    }
+    .client-solution .body-wrapper .content-wrapper h2 {
+        padding-top: 16px;
+    }
+
+
+    /* why choose us */
+    .choose-us .content-wrapper {
+        padding-top: 32px;
+    }
+    .steps-wrapper {
+        padding-top: 28px;
+    }
+    .steps-wrapper .steps-inner {
+        padding-bottom: 56px;
+    }
+    .steps-wrapper .col-steps:nth-child(odd) .steps-inner {
+        margin-left: 0;
+    }
+    .steps-wrapper .steps-inner .icon-box {
+        flex: 0 0 26px;
+        max-width: 26px;
+        margin-top: 11px;
+    }
+    .steps-wrapper .steps-inner .content-box {
+        padding-left: 22px;
+    }
+    .steps-wrapper .steps-inner .content-box h2 {
+        padding-bottom: 14px;
+        max-width: 168px;
+    }
+    .steps-wrapper .steps-inner .content-box p {
+        font-size: 12px;
+        line-height: 24px;
+        max-width: 196px;
+    }
+    .choose-us .image-wrapper img {
+        width: 200px;
+        margin-left: 48px;
+    }
+
+
+
+    /* clients section */
+    .our-clients {
+        padding: 48px 0;
+    }
+    .our-clients .sc-title-wrapper .title-box {
+        flex: 0 0 284px;
+        max-width: 284px;
+    }
+    .our-clients .sc-title-wrapper {
+        padding-bottom: 48px;
+    }
+    .our-clients .view-btn-box-mobile {
+        margin-top: 56px;
+    }
+
+
+    /* training school start */
+    .training-school .image-wrapper {
+        padding-top: 48px;
+    }
+    .training-school .image-wrapper .image-inner {
+        max-width: 559px;
+    }
+    .training-school .content-wrapper .content-inner {
+        max-width: 592px;
+        padding: 0 92px 0 62px;
+    }
+    .training-school .content-wrapper h1 {
+        width: 100%;
+        max-width: 244px;
+    }
+
+
+    /* index career news & events  */
+    .index-cne {
+        padding: 48px 0;
+    }
+    .index-cne .col-steps:not(:last-child) .content-wrapper {
+        padding-bottom: 56px;
+    }
+    .index-cne .content-wrapper h2 {
+        padding-top: 24px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .index-cne .content-wrapper p {
+        padding: 8px 0 16px;
+        max-width: 272px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .index-hero .content-wrapper p, .index-serving .content-wrapper p, .training-school .content-wrapper p {
+        padding: 20px 0 40px;
+    }
+
+
+    .index-hero {
+        padding: 82px 0 0;
+    }
+    .index-hero .image-wrapper img {
+        width: 110%;
+    }
+
+    .index-serving {
+        padding: 100px 0;
+    }
+    .index-serving .image-wrapper {
+        padding-top: 78px;
+    }
+    .index-serving .content-wrapper .content-inner {
+        max-width: 714px;
+        padding: 0 88px 0 42px;
+    }
+
+    .client-solution {
+        padding: 100px 0 78px;
+    }
+    .client-solution .body-wrapper .custom-margin {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .client-solution .body-wrapper .content-wrapper {
+        padding: 0 15px 72px;
+    }
+
+    .choose-us .content-wrapper {
+        padding-top: 62px;
+    }
+    .steps-wrapper .steps-inner {
+        padding-bottom: 48px;
+    }
+    .steps-wrapper .col-steps:nth-child(odd) .steps-inner {
+        margin-left: 0;
+    }
+    .choose-us .image-wrapper img {
+        left: -108px;
+        width: 374px;
+    }
+    .steps-wrapper .steps-inner .content-box {
+        padding-left: 16px;
+    }
+    .steps-wrapper .steps-inner .icon-box {
+        flex: 0 0 40px;
+        max-width: 40px;
+        margin-top: 11px;
+    }
+
+    .our-clients {
+        padding: 100px 0;
+    }
+
+    .training-school .content-wrapper .content-inner {
+        max-width: 714px;
+        padding: 0 132px 0 98px;
+    }
+    .training-school .image-wrapper {
+        padding-top: 78px;
+    }
+
+    .index-cne {
+        padding: 100px 0;
+    }
+    .index-cne .content-wrapper h2 {
+        padding-top: 42px;
+        font-size: 34px;
+        line-height: 44px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .index-hero .content-wrapper p, .index-serving .content-wrapper p, .training-school .content-wrapper p {
+        padding: 24px 0 48px;
+    }
+
+
+    .index-hero {
+        padding: 158px 0 0;
+    }
+    .index-hero .image-wrapper img {
+        width: 108%;
+    }
+    .index-serving {
+        padding: 120px 0;
+    }
+    .index-serving .content-wrapper .content-inner {
+        padding: 0 52px 0 52px;
+    }
+
+    .client-solution {
+        padding: 120px 0 78px;
+    }
+    .steps-wrapper .col-steps:nth-child(odd) .steps-inner {
+        margin-left: 0;
+    }
+    .client-solution .body-wrapper .custom-margin {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .client-solution .body-wrapper .content-wrapper {
+        padding: 0 15px 72px;
+    }
+    .choose-us .image-wrapper img {
+        left: -134px;
+        width: 460px;
+    }
+    .our-clients {
+        padding: 120px 0;
+    }
+    .training-school .content-wrapper .content-inner {
+        padding: 0 52px 0 52px;
+    }
+    .index-cne {
+        padding: 120px 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1365.98px) {
+    .index-serving .content-wrapper .content-inner {
+        padding: 0 82px 0 82px;
+    }
+    .client-solution .body-wrapper .custom-margin {
+        margin-right: -25px;
+        margin-left: -25px;
+    }
+    .client-solution .body-wrapper .content-wrapper {
+        padding: 0 25px 72px;
+    }
+    .training-school .content-wrapper .content-inner {
+        padding: 0 84px 0 82px;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1679.98px) {
+    .index-hero .content-wrapper p, .index-serving .content-wrapper p, .training-school .content-wrapper p {
+        padding: 24px 0 48px;
+    }
+
+
+    .index-hero {
+        padding: 132px 0 0;
+    }
+    .index-hero .content-wrapper p {
+        max-width: 600px;
+    }
+
+    .index-serving {
+        padding: 150px 0 75px;
+    }
+    .index-serving .image-wrapper .image-inner {
+        max-width: 556px;
+    }
+    .index-serving .content-wrapper .content-inner {
+        max-width: 604px;
+        padding: 0 68px 0 58px;
+    }
+
+    .client-solution {
+        padding: 75px 0 150px;
+    }
+    .client-solution .body-wrapper .custom-margin {
+        margin-right: -25px;
+        margin-left: -25px;
+    }
+    .client-solution .body-wrapper .content-wrapper {
+        padding: 0 25px 52px;
+    }
+
+
+    .steps-wrapper {
+        padding-top: 72px;
+    }
+    .choose-us .image-wrapper img {
+        left: -124px;
+        width: 424px;
+    }
+    .choose-us .content-wrapper {
+        padding-top: 62px;
+    }
+    .steps-wrapper .steps-inner {
+        padding-bottom: 62px;
+        max-width: 338px;
+    }
+    .steps-wrapper .col-steps:nth-child(odd) .steps-inner {
+        margin-left: 0;
+    }
+    .steps-wrapper .steps-inner .content-box {
+        padding-left: 24px;
+    }
+    .steps-wrapper .steps-inner .content-box p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .training-school .image-wrapper .image-inner {
+        max-width: 556px;
+    }
+    .training-school .content-wrapper .content-inner {
+        max-width: 604px;
+        padding: 0 80px 0 74px;
+    }
+
+
+    .index-cne .content-wrapper {
+        max-width: 492px;
+    }
+    .index-cne .content-wrapper h2 {
+        padding-top: 42px;
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .index-cne .content-wrapper p {
+        max-width: 410px;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1919.98px) {
+    .index-hero {
+        padding: 192px 0 0;
+    }
+    .index-serving .image-wrapper .image-inner {
+        max-width: 700px;
+    }
+    .index-serving .content-wrapper .content-inner {
+        max-width: 758px;
+        padding: 0 98px 0 122px;
+    }
+
+    .client-solution {
+        padding: 128px 0 78px;
+    }
+ 
+    .training-school .content-wrapper .content-inner {
+        padding: 0 132px 0 122px;
+    }
+    .training-school .image-wrapper .image-inner {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 1920px) {}
+
